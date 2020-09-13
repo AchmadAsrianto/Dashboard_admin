@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.left-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+.avatar{
+    font-size: 50px;
+    background: #bdc3c7;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%; 
+}
+
+.left-box h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    letter-spacing: 8px;
+}
+
+.box-signup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+
+.box-signup input{
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.box-signup input::placeholder{
+    color: #fff;
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #19B3D3;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:hover{
+    background:  #0D9DBB;
+    transition: 0.2s ease;
+}
